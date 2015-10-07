@@ -1,4 +1,5 @@
 Changes
+LICENSE
 lib/Term/Screen/Lite.pm
 lib/Term/Screen/Lite/Generic.pm
 lib/Term/Screen/Lite/Win32.pm
