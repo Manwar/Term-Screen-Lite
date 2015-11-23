@@ -20,13 +20,18 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Moo' => 0,
-        'namespace::clean' => 0,
+        'Moo'              => '2.000000',
+        'namespace::clean' => '0.24',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Term-Screen-Lite-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'Term::Screen::Lite'          => { file => 'lib/Term/Screen/Lite.pm'         , version => '0.03' },
+            'Term::Screen::Lite::Generic' => { file => 'lib/Term/Screen/Lite/Generic.pm' , version => '0.03' },
+            'Term::Screen::Lite::Win32'   => { file => 'lib/Term/Screen/Lite/Win32.pm'   , version => '0.03' },
+        },
         resources => {
             repository => {
                 type => 'git',

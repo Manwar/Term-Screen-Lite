@@ -1,6 +1,6 @@
 package Term::Screen::Lite::Win32;
 
-$Term::Screen::Lite::Win32::VERSION = '0.02';
+$Term::Screen::Lite::Win32::VERSION = '0.03';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Term::Screen::Lite::Win32 - Windows platform interface to terminal screen.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 

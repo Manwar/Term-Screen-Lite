@@ -1,6 +1,6 @@
 package Term::Screen::Lite::Generic;
 
-$Term::Screen::Lite::Generic::VERSION = '0.02';
+$Term::Screen::Lite::Generic::VERSION = '0.03';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Term::Screen::Lite::Generic - Unix/Linux platform interface to terminal screen.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
